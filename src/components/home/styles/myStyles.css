@@ -1,0 +1,61 @@
+.image-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%; /* Zorgt ervoor dat de afbeeldingen niet breder zijn dan de container */
+    overflow-x: auto; /* Voegt een horizontale schuifbalk toe als de afbeeldingen breder zijn dan de container */
+  }
+  
+  .image-list li {
+    flex: 0 0 auto;
+    margin-right: 10px; /* Voegt een kleine marge tussen de afbeeldingen toe */
+  }
+  
+  .image-list img {
+    max-width: 100%; /* Zorgt ervoor dat de afbeeldingen binnen de breedte van de container blijven */
+  }
+
+  .top-to-btm{
+    position: relative;
+  }
+  .icon-position{
+    position: fixed;
+    bottom: 40px;
+    right: 25px;
+    z-index: 20;
+  }
+  .icon-style{
+    background-color: #0275d8;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    color: #fff;
+    cursor: pointer;
+    animation: movebtn 3s ease-in-out infinite;
+    transition: all .5s ease-in-out;
+  }
+  .icon-style:hover{
+    animation: none;
+    background: #fff;
+    color: #551B54;
+    border: 2px solid #551B54;
+  }
+  @keyframes movebtn {
+    0%{
+      transform: translateY(0px);
+    }
+    25%{
+      transform: translateY(20px);
+    }
+    50%{
+      transform: translateY(0px);
+    }
+    75%{
+      transform: translateY(-20px);
+    }
+    100%{
+      transform: translateY(0px);
+    }
+  }
+  
