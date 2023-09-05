@@ -43,7 +43,6 @@ header nav {
   justify-content: end;
   max-width: 1200px;
   margin: 0 auto;
-  background-color: var(red);
   color: var(--dominant-2);
 }
 header nav h1 {
@@ -62,11 +61,13 @@ header nav a.active {
 
 .bg-nav  {
   background-color: var(--secondary-2);
+  border-radius: 8px;
 }
 
 .navbar .logo-container .logo {
   width: 50px;
   height: auto;
+  border-radius: 8px;
 }
 
 /* page content */
@@ -203,6 +204,10 @@ form button {
 }
 
 /* Shop */
+
+.btn-shop {
+  margin-top: 50px;
+}
 .container {
   padding: 40px;
 }

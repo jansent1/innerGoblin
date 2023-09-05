@@ -59,9 +59,6 @@ export default function RootLayout() {
               <NavLink className="nav-link" to="/contact">
                 Contact & FAQ
               </NavLink>
-              <NavLink className="nav-link" to="/artistsresources">
-                Artist's Resources
-              </NavLink>
               <NavLink className="nav-link" to="/careers">
                 Careers
               </NavLink>
@@ -87,7 +84,7 @@ export default function RootLayout() {
           <Navbar.Brand>
             <div className="logo-container">
               <img
-                src="/img/goblin-logo.png"
+                src="/img/logo-gobbo.png"
                 alt="Inner Goblin Logo"
                 className="logo"
               />

@@ -5,7 +5,7 @@ const Banner = () => {
     <section id="about">
       <hr></hr>
       <img
-        src="img/banner-info.png"
+        src="img/banner-001.jpg"
         className="img-thumbnail"
         alt="banner-intro"
       />

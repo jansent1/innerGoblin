@@ -9,7 +9,7 @@ const Product = () => {
         <h3>These are my favourite items:</h3>
         <div className="col">
           <img
-            src="https://altpickconnects.files.wordpress.com/2021/01/1587136696g.jpg?w=584"
+            src="img/gpblin-logo 2.jpg"
             alt="product1-img"
             className="img-fluid"
           />
@@ -47,7 +47,7 @@ const Product = () => {
         </div>
       </div>
       <div className="row">
-        <button type="button" className="btn btn-primary">
+        <button type="button" className="btn btn-primary btn-shop">
           Take a look at all my products in the shop!
         </button>
       </div>

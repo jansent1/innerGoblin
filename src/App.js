@@ -1,4 +1,5 @@
 // DB poort openzetten: json-server -p 4000 -w ./data/db.json
+// https://coolors.co/gradients  per component?
 
 import {
   createBrowserRouter,

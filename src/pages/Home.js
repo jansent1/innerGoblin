@@ -9,6 +9,9 @@ import ClientReviews from "../components/home/ClientReviews";
 import GoblinIllustrator from "../components/home/GoblinIllustrator";
 import Shop from "./Shop";
 import ParallaxComponent from "../components/home/parallax";
+import SecondBanner from "../components/home/SecondBanner";
+import ThirdBanner from "../components/home/ThirdBanner";
+import CardCarousel from "../components/home/CardCarousel";
 
 export default function Home() {
   return (
@@ -19,12 +22,12 @@ export default function Home() {
       <IntroText />
       <ParallaxComponent />
       <Product />
-      <Banner />
+      <SecondBanner />
       <Portfolio />
       <Banner2 />
       <Clients />
       <ClientReviews />
-      <Banner />
+      <ThirdBanner />
       <Shop />
       <IntroText />
     </div>
