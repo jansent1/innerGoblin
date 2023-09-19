@@ -7,14 +7,15 @@ const IntroText = () => {
       <div className="container">
         <div className="row">
           <div className="col text-center">
-            <h3>FEATURED PRODUCT:</h3>
-            <h2>SILK SCREEN GIG POSTER</h2>
+            <h3>FEATURED PROJECT:</h3>
+            <h2>THE BIG DRAW</h2>
             <p>
-              I am so excited to announce that Les Claypool commissioned me to
-              create their official poster for the 2023 Napa California Gig!
+              Nationaal evenement. In Arnhem maar ook Nijmegen worden op ramen
+              getekend en kleine events opgezet. Dit om lokale creativelingen en
+              illustrators een podium te geven.{" "}
             </p>
-            <a href="https://bit.ly/brian-allen-limited-edition">
-              Sign up for a notification!
+            <a href="https://www.thebigdrawnederland.nl">
+              https://www.thebigdrawnederland.nl
             </a>
           </div>
         </div>

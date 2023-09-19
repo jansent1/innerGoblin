@@ -83,16 +83,16 @@ export default function RootLayout() {
           </Navbar.Collapse>
           <Navbar.Brand>
             <div className="logo-container">
-              <img
-                src="/img/logo-gobbo.png"
-                alt="Inner Goblin Logo"
-                className="logo"
-              />
+              <div className="logo">
+                <img
+                  src="/img/logo-gobbo.png"
+                  alt="Inner Goblin Logo"
+                  className="logo-img"
+                />
+              </div>
               <div className="social-icons">
                 <a href="https://www.facebook.com" className="social-icon">
-                  <a href="https://www.facebook.com">
-                    <MdFacebook />
-                  </a>
+                  <MdFacebook />
                 </a>
                 <a href="https://www.twitter.com" className="social-icon">
                   <BsTwitter />
